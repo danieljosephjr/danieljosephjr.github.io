@@ -1,0 +1,151 @@
+/* General CSS (applies to all bulma media states)*/
+/* #has-image-centered {
+    margin-left: auto;
+    margin-right: auto;
+  } */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x:hidden;
+    overflow-y: hidden;
+    background-color: #293037;
+}
+a#link{
+    color:aliceblue;
+}
+a:hover#link{
+    color:red;
+}
+/* about me G*/
+#about{
+    background-color: #2f3942;
+}
+#desktopPortrait{
+    text-align: right;
+}
+/* navbar G*/
+.navbar-item{
+    background-color: #36516b;
+    
+}
+.navbar-item:hover{
+    background-color:#2f3942 !important;
+}
+span{
+    background-color: aliceblue !important;
+}
+.navbar-burger{
+    background-color: #36516b;
+    width: 100%;
+}
+.navbar-burger:hover{
+    background-color: #2f3942;
+    width: 100%;
+}
+#nav-links{
+    background-color: #293037;
+}
+/* projects G*/
+#projWrapper{
+    background-color: #2f3942;
+}
+#cImg{
+    border: 2px solid #1d2327;
+    box-shadow: 3px 3px 2px #314555;
+}
+/* skills G */
+#skillsWrapper{
+    background-color: #2f3942;
+}
+#skillCard{
+    background-color: #36516b;
+}
+/* footer G */
+#linkedInIcon{
+    max-width: 300px;
+}
+#gmailIcon{
+    max-width: 300px;
+}
+#footWrapper{
+    background-color: #304355;
+}
+
+
+/* Desktop-Only CSS */
+#Desktop-wrapper{
+    background-color: #293037;
+}
+/* about D*/
+#deskPortrait{
+    background-color: #293037;
+    min-width: 500px;
+}
+/* nav D*/
+#navWrapper{
+    background-color: #2f3942;
+}
+/* project D*/
+#containerD{
+    background-color: #304355;
+}
+
+/* Tablet&Mobile CSS */
+/* about TM */
+#Tablet-about{
+    background-color: #293037;
+}
+#portrait{
+    box-shadow: 3px 3px 5px 1px #1d2327;
+    border: 10px solid #2f3438;
+    border-radius: 5px;
+}
+
+/* projects TM */
+#projMobileContainer{
+    background-color: #304355;
+}
+.card-header{
+    background-color: #36516b;
+}
+.card-image{
+    background-color: #36516b;
+}
+.card-content{
+    background-color: #36516b;
+}
+#mobileCard{
+    background-color: #2b3e4e;
+}
+
+/* Tablet-Only CSS */
+/* project T */
+#projects-Tablet{
+    background-color: #293037;
+}
+
+#Tablet-about{
+    background-color: #293037;
+}
+/* skills T */
+#skills-Tablet{
+    background-color: #293037;
+}
+#aboutMeText-Tablet{
+    background-color: #293037;
+}
+#nav-links-tablet{
+    background-color: #293037;
+}
+
+/* Mobile-Only CSS */
+#projects-Mobile{
+    background-color: #2f3942;
+}
+
+
+
+
+
+
